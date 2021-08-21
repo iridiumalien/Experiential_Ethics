@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Monaco', Monospace;
+    font-size: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 50px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+    background-color: pink;
+}
+
+.container {
+    max-width: 100%;
+    opacity: 1.0;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+#text {
+    text-align: center;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 100px;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: floralwhite;
+    opacity: 0.8;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-inline: 200px;
+    color: black;
+    outline: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: darkgreen;
+    background-color: palegreen;
+}
